@@ -13,6 +13,6 @@ public class Main {
             System.out.println("Число n: " + n + " - ODD - Нечетное");
         }
 
-        System.out.println("А число " + nn + ((nn & 1) == 0 ? " четное " : " нечетное "));//Don't know why
+        System.out.println("А число " + nn + ((nn & 1) == 0 ? " четное " : " нечетное "));//Don't know why, no Math op-ns
     }
 }
